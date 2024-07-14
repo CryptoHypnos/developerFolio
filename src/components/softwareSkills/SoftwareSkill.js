@@ -1,6 +1,6 @@
 import React, {createRef} from "react";
 import "./SoftwareSkill.scss";
-import { skillsSection } from "../../portfolio";
+import {skillsSection} from "../../portfolio";
 
 export default function SoftwareSkill() {
   const imgRef = createRef();
@@ -16,7 +16,13 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <img crossOrigin={"anonymous"} ref={imgRef} src={skills.iconUrl} alt="" className="custom-icon" />
+                <img
+                  crossOrigin={"anonymous"}
+                  ref={imgRef}
+                  src={skills.iconUrl}
+                  alt=""
+                  className="custom-icon"
+                />
                 <p>{skills.skillName}</p>
               </li>
             );

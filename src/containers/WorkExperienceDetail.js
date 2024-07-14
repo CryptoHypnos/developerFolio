@@ -1,11 +1,11 @@
 // src/pages/WorkExperienceDetail.js
 
-import React from 'react';
-import { useParams } from 'react-router-dom';
-import { workExperiences } from '../portfolio';
+import React from "react";
+import {useParams} from "react-router-dom";
+import {workExperiences} from "../portfolio";
 
 const WorkExperienceDetail = () => {
-  const { id } = useParams();
+  const {id} = useParams();
   const experience = workExperiences[id];
 
   if (!experience) {

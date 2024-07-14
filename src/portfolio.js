@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Roboticist 🦾 with proficiency in multiple programming languages, simulators, physics engines, and the Robot Operating System (ROS)."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -48,8 +47,12 @@ const skillsSection = {
   subTitle: "Build, tinker with, and animate robots",
   skills: [
     emoji("⚡ Develop autonomous robotic systems"),
-    emoji("⚡ Create full-stack automation solutions, like the optimization toolbox I'm making for Airbus"),
-    emoji("⚡ Lead teams to success, such as winning 2nd place in the VDI Autonomous Driving Cup")
+    emoji(
+      "⚡ Create full-stack automation solutions, like the optimization toolbox I'm making for Airbus"
+    ),
+    emoji(
+      "⚡ Lead teams to success, such as winning 2nd place in the VDI Autonomous Driving Cup"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -58,39 +61,39 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "ROS",
-      iconUrl: require("./assets/images/ros.png"),
+      iconUrl: require("./assets/images/ros.png")
     },
     {
       skillName: "Unity",
-      iconUrl: require("./assets/images/unity.png"),
+      iconUrl: require("./assets/images/unity.png")
     },
     {
       skillName: "Unreal Engine 5",
-      iconUrl: require("./assets/images/ue.png"),
+      iconUrl: require("./assets/images/ue.png")
     },
     {
       skillName: "Arduino",
-      iconUrl: require("./assets/images/arduino.png"),
+      iconUrl: require("./assets/images/arduino.png")
     },
     {
       skillName: "MATLAB",
-      iconUrl: require("./assets/images/matlab.png"),
+      iconUrl: require("./assets/images/matlab.png")
     },
     {
       skillName: "Python",
-      iconUrl: require("./assets/images/python.png"),
+      iconUrl: require("./assets/images/python.png")
     },
     {
       skillName: "C#",
-      iconUrl: require("./assets/images/csharp.png"),
+      iconUrl: require("./assets/images/csharp.png")
     },
     {
       skillName: "C++",
-      iconUrl: require("./assets/images/c++.png"),
+      iconUrl: require("./assets/images/c++.png")
     },
     {
       skillName: "Docker",
-      iconUrl: require("./assets/images/docker.png"),
+      iconUrl: require("./assets/images/docker.png")
     },
     {
       skillName: "Git",

@@ -1,0 +1,266 @@
+[33mcommit 6e3fb57b3d66bd9edece0ecdb598dbeca2994d90[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 70d2cdc b4f2f0a
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 15:40:50 2024 +0200
+
+    Merge branch 'master' of https://github.com/CryptoHypnos/developerFolio
+
+[33mcommit 70d2cdcd44622c8511478682760c977bdac927d1[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 15:38:23 2024 +0200
+
+    First major changes
+
+[33mcommit b4f2f0ae40c3c1f41673bf5adf5fb7d93f24d468[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 13:08:27 2024 +0200
+
+    Updates
+
+[33mcommit f5cf7ac57f5fc8349d1aebe59fd7545a3d0c662d[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 12:59:00 2024 +0200
+
+    Updates
+
+[33mcommit df5ebb60310119e1b35d5c5b96d3944ebb725704[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 12:53:53 2024 +0200
+
+    Updates
+
+[33mcommit daa0a77e998d387a691afad36d5c9228e03f02ef[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 12:52:36 2024 +0200
+
+    Updates
+
+[33mcommit 59306285cdc95af3312aebf753721a4bdb5b8b87[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 12:49:12 2024 +0200
+
+    Updates
+
+[33mcommit 8286882d5f0a5ea863e7b923942151fcfb6d9781[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 12:44:30 2024 +0200
+
+    Updates
+
+[33mcommit 9a7d68c961a85faf0999ebbb5687d74824f62475[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 12:42:00 2024 +0200
+
+    Updates
+
+[33mcommit ff95a91ddbf09bca59de1094cdbed46c8e76659c[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 12:39:17 2024 +0200
+
+    Updates
+
+[33mcommit 83836ca4714cf96ee4d26b5de541cf8b5304ba66[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 12:34:19 2024 +0200
+
+    Updates
+
+[33mcommit eeae9f11aa0171aa5a2faffcec8db8b37a720874[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 12:30:03 2024 +0200
+
+    Updates
+
+[33mcommit c8354398e7488b946a5f58fe7beea4c08393ff21[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 12:07:22 2024 +0200
+
+    Updates
+
+[33mcommit 79cb1f5e3576d83299aa73dad6303d01b44abcc5[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 12:02:49 2024 +0200
+
+    Updates
+
+[33mcommit 20717bd9240ca766ed798b24cec39162160cf811[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 11:55:57 2024 +0200
+
+    Updates
+
+[33mcommit 16309a5cbea3bf5019389808a6226fbec7fdb790[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 11:55:04 2024 +0200
+
+    Updates
+
+[33mcommit 4510ab116055973a86987ea098b346578d7643fb[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 11:47:54 2024 +0200
+
+    Updates
+
+[33mcommit 6efe22ad24fd42207c6883fd52c2aff121cf2efc[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 11:47:20 2024 +0200
+
+    Updates
+
+[33mcommit c1a722dd30b44e9c97f4e423913627189c98e6e7[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 11:45:26 2024 +0200
+
+    Updates
+
+[33mcommit 2aff4ca10f556fde01f9714dfbd5341b630500b0[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 11:41:04 2024 +0200
+
+    Updates
+
+[33mcommit f4073211f59ba166eb96dfdfcdf7a3d18f2e42ea[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 11:30:00 2024 +0200
+
+    Updates
+
+[33mcommit 6f2cd265f2007e450bf0ca1e53b154c5aac3e62f[m[33m ([m[1;31morigin/gh-pages[m[33m)[m
+Author: CryptoHypnos <31606832+CryptoHypnos@users.noreply.github.com>
+Date:   Sun Jul 14 11:20:39 2024 +0200
+
+    Updates
+
+[33mcommit d3fdcee6833edce90ccf97ec1dd6ba14db98ab93[m[33m ([m[1;31mupstream/master[m[33m, [m[1;31mupstream/HEAD[m[33m)[m
+Author: Daivik Karbhari <114691318+User-DK@users.noreply.github.com>
+Date:   Mon May 20 02:45:21 2024 +0530
+
+    Update README.md (#695)
+    
+    fixed a small typing mistake
+
+[33mcommit 1b69fbd0df376c326c7a41aee43deac3c26c9c68[m
+Author: Rebecca <107712113+rebeccali04@users.noreply.github.com>
+Date:   Sun Apr 28 07:17:00 2024 -0400
+
+    Feature-Resume display and download (#698)
+    
+    * Create ResumeDownloadButton.js
+    
+    * Updated github pages
+    
+    Updated github pages
+    
+    * Resume feature 1st version
+    
+    Missing adding feature to top bar
+    
+    * Style
+    
+    ran npm run format
+    
+    * Fixed UI to match the webpage
+    
+    Resume can now be accessed by the toolbar above and by the button in the greeting page.
+    
+    Fixed the title and subtitle arrangement.
+    
+    * Fixed format
+    
+    Fixed format
+    
+    * Update README.md with resume instructions
+    
+    * Updated resume feature
+    
+    Downloads resume after clicking button,
+    Deleted resume container in website
+    
+    * Changed underlined font of bottun
+    
+    * [pre-commit.ci] auto fixes from pre-commit.com hooks
+    
+    for more information, see https://pre-commit.ci
+    
+    * Updated style to pass lint
+    
+    * Directly Download button
+    
+    ---------
+    
+    Co-authored-by: NMCBU1 <86202623+NMCBU1@users.noreply.github.com>
+    Co-authored-by: NMCBU1 <nmarulandac@gmail.com>
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+[33mcommit f16db7c3d669b93101b71a6e063b9b5d55ab3b98[m
+Author: Muhammad Ahsan Ayaz <9844254+AhsanAyaz@users.noreply.github.com>
+Date:   Sun Oct 1 14:12:48 2023 +0200
+
+    fix(ci): update workflow to use node 18.x (#646)
+
+[33mcommit a323aa2f73d9ad9c2a2f5d33a681f39761bfec82[m
+Author: Muhammad Ahsan Ayaz <9844254+AhsanAyaz@users.noreply.github.com>
+Date:   Sun Sep 10 20:42:23 2023 +0200
+
+    fix(ci): fix prettier (#633)
+    
+    * fix(ci): fix prettier
+    
+    fixed prettier for CI builds failing due to node 12.x
+    updated the github action setup-node to latest
+    
+    * fix(ci): use npm script instead of global prettier
+
+[33mcommit ac2baf8bfe9e30bb7a1add7772b6f0ffb31c524d[m
+Author: Karthik Mohan <25052382+karthikmohan@users.noreply.github.com>
+Date:   Mon Aug 28 01:12:45 2023 +0530
+
+    Update deploy.yml (#627)
+    
+    Co-authored-by: Karthik Mohan <karthik@esper.io>
+
+[33mcommit 4672e2a5a846d2288a7f46a4965a8791441290f0[m
+Author: Muhammad Ahsan Ayaz <9844254+AhsanAyaz@users.noreply.github.com>
+Date:   Sun Aug 27 21:41:24 2023 +0200
+
+    fix(ci): fix build failing due to old (and deprecated) packages (#630)
+    
+    * fix(ci): fix build failing due to old (and deprecated) packages
+    
+    * docs(readme): update lottie-react references
+    
+    * [pre-commit.ci] auto fixes from pre-commit.com hooks
+    
+    for more information, see https://pre-commit.ci
+    
+    ---------
+    
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+[33mcommit 27b12fd003a9d9dadbc1ff5197c487b06da823b7[m
+Author: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>
+Date:   Mon Feb 27 22:57:54 2023 +0500
+
+    docs: add KazAttarwala as a contributor for code (#605)
+    
+    * docs: update README.md [skip ci]
+    
+    * docs: update .all-contributorsrc [skip ci]
+    
+    ---------
+    
+    Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>
+
+[33mcommit bae70cef50ac1f8c931b333f8276c5096c7b971f[m
+Author: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>
+Date:   Fri Feb 10 16:54:26 2023 +0500
+
+    docs: add muneebahmedayub as a contributor for code (#598)
+    
+    * docs: update README.md [skip ci]
+    
+    * docs: update .all-contributorsrc [skip ci]
+    
+    ---------
+    
+    Co-authore
