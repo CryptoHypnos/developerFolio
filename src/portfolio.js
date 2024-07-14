@@ -163,20 +163,20 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "MSc Research Intern",
+      company: "Airbus",
+      companylogo: require("./assets/images/airbus.png"),
+      date: "Mai 2022 – Present",
+      desc: "Design Optimization of Carbon Fiber Laminates for Aerospace Applications",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developing a full-stack scalable optimization toolbox for VAT carbon fiber deposition",
+        "Validating optimization results through simulation and hardware testing"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      role: "Chair of Mechatronics at UDE",
+      company: "Chair of Mechatronics at UDE",
+      companylogo: require("./assets/images/imech.jpg"),
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
