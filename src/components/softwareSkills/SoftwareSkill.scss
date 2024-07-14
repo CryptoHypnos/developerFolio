@@ -1,31 +1,70 @@
 @import "../../_globalColor";
 
+.software-skills-main-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .dev-icons {
   padding-left: 0;
   list-style: none;
-  font-size: 3rem;
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .software-skill-inline {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px; /* Adjust this value to set the spacing between icons */
+  flex-basis: 10%; /* Adjust the percentage to control the number of items per row */
 }
 
-.software-skill-inline > i {
-  color: $subTitle;
+.custom-icon {
+  width: 70px; /* Adjust the size as needed */
+  height: 70px;
+  margin-bottom: 5px;
 }
 
-.software-skill-inline > i:hover {
-  color: $skillsColor;
-}
 .software-skill-inline > p {
   color: $subTitle;
   font-size: 10px;
 }
-.software-skill-inline > i:hover ~ p {
+
+.software-skill-inline:hover > p {
   color: $skillsColor;
+}
+
+.software-skill-inline:hover .custom-icon {
+  filter: brightness(0.8);
+}
+
+/* Adjust flex-basis for smaller screens */
+@media (max-width: 1200px) {
+  .software-skill-inline {
+    flex-basis: 25%; /* 4 items per row */
+  }
+}
+
+@media (max-width: 992px) {
+  .software-skill-inline {
+    flex-basis: 33.33%; /* 3 items per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .software-skill-inline {
+    flex-basis: 50%; /* 2 items per row */
+  }
+}
+
+@media (max-width: 576px) {
+  .software-skill-inline {
+    flex-basis: 100%; /* 1 item per row */
+  }
 }
