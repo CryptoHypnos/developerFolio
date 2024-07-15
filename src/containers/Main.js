@@ -1,4 +1,5 @@
-import React, {useEffect, useState} from "react";
+// src/pages/Main.js
+import React, { useEffect, useState } from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
@@ -16,26 +17,29 @@ import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
-import {splashScreen} from "../portfolio";
-import {StyleProvider} from "../contexts/StyleContext";
-import {useLocalStorage} from "../hooks/useLocalStorage";
+import { splashScreen } from "../portfolio";
+import { StyleProvider } from "../contexts/StyleContext";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 import "./Main.scss";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
-  const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
-    useState(true);
+  const [isShowingSplashAnimation, setIsShowingSplashAnimation] = useState(true);
 
   useEffect(() => {
-    if (splashScreen.enabled) {
-      const splashTimer = setTimeout(
-        () => setIsShowingSplashAnimation(false),
-        splashScreen.duration
-      );
-      return () => {
-        clearTimeout(splashTimer);
-      };
+    if (localStorage.getItem("splashShown") !== "true") {
+      if (splashScreen.enabled) {
+        const splashTimer = setTimeout(() => {
+          setIsShowingSplashAnimation(false);
+          localStorage.setItem("splashShown", "true");
+        }, splashScreen.duration);
+        return () => {
+          clearTimeout(splashTimer);
+        };
+      }
+    } else {
+      setIsShowingSplashAnimation(false);
     }
   }, []);
 
@@ -45,7 +49,7 @@ const Main = () => {
 
   return (
     <div className={isDark ? "dark-mode" : null}>
-      <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+      <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
         {isShowingSplashAnimation && splashScreen.enabled ? (
           <SplashScreen />
         ) : (

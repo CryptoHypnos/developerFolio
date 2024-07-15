@@ -43,41 +43,41 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="#skills">Skills</a>
-            </li>
-          )}
-          {viewExperience && (
-            <li>
-              <a href="#experience">Work Experiences</a>
-            </li>
-          )}
-          {viewOpenSource && (
-            <li>
-              <a href="#opensource">Open Source</a>
+              <a href="/developerFolio/#skills">Skills</a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="/developerFolio/#projects">Projects</a>
+            </li>
+          )}
+          {viewExperience && (
+            <li>
+              <a href="/developerFolio/#experience">Work Experiences</a>
+            </li>
+          )}
+          {viewOpenSource && (
+            <li>
+              <a href="/developerFolio/#opensource">Open Source</a>
             </li>
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Blogs</a>
+              <a href="/developerFolio/#blogs">Blogs</a>
             </li>
           )}
           {viewTalks && (
             <li>
-              <a href="#talks">Talks</a>
+              <a href="/developerFolio/#talks">Talks</a>
             </li>
           )}
           {viewResume && (
             <li>
-              <a href="#resume">Resume</a>
+              <a href="/developerFolio/#resume">Resume</a>
             </li>
           )}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="/developerFolio/#contact">Contact Me</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

@@ -157,6 +157,99 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
+// Some big projects you have worked on
+
+const bigProjects = {
+  title: "Projects",
+  subtitle: "Stuff that I've worked on and love to share",
+  projects: [
+    {
+      image: require("./assets/images/adc_team.JPG"),
+      projectName: "VDI-ADC",
+      projectDesc: "Lead our team to 2nd place in the VDI Autonomous Driving Cup",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "/developerFolio/ProjectExperience/VERA"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/vera_thumbnail.png"),
+      projectName: "VERA",
+      projectDesc: "Sensor modules and serializer for a simulation environment in UE5",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/autobin_thumbnail.png"),
+      projectName: "AutoBin",
+      projectDesc: "Ship telemetry and control communication protocol",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/spot_the_pot_thumbnail.png"),
+      projectName: "Spot the Pot",
+      projectDesc: "Fully automated plant watering robot on a tight budget",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/turtlebot.png"),
+      projectName: "SLAM-based Object Detection",
+      projectDesc: "Where it all started: my first project in robotics",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/cobotank_thumbnail.png"),
+      projectName: "CoboTank",
+      projectDesc: "Inverse Kinematics implementation using ROS",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/laila_thumbnail.png"),
+      projectName: "LAiLA",
+      projectDesc: "Full-stack optimization toolbox development for Airbus",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
 // Work experience section
 
 const workExperiences = {
@@ -198,38 +291,6 @@ const openSource = {
   display: false // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
-
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
 // Achievement Section
 // Include certificates, talks etc
@@ -289,7 +350,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -358,11 +419,10 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "rachid.alhourani@gmail.com"
 };
 
 // Twitter Section
