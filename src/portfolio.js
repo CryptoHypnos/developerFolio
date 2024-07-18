@@ -176,6 +176,18 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/laila_thumbnail.png"),
+      projectName: "LAiLA",
+      projectDesc: "Full-stack optimization toolbox development for Airbus",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "/developerFolio/projectExperience/LAiLA"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/vera_thumbnail.png"),
       projectName: "VERA",
       projectDesc: "Sensor modules and serializer for a simulation environment in UE5",
@@ -234,18 +246,7 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/laila_thumbnail.png"),
-      projectName: "LAiLA",
-      projectDesc: "Full-stack optimization toolbox development for Airbus",
-      footerLink: [
-        {
-          name: "Check it out!",
-          url: "/developerFolio/projectExperience/LAiLA"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
+    
   ],
 
   display: true // Set false to hide this section, defaults to true
@@ -260,7 +261,7 @@ const workExperiences = {
       role: "MSc Research Intern",
       company: "Airbus",
       companylogo: require("./assets/images/airbus.png"),
-      date: "Mai 2022 – Present",
+      date: "Mai 2024 – Present",
       desc: "Design Optimization of Carbon Fiber Laminates for Aerospace Applications",
       descBullets: [
         "Developing a full-stack scalable optimization toolbox for VAT carbon fiber deposition",
@@ -268,18 +269,18 @@ const workExperiences = {
       ]
     },
     {
-      role: "Chair of Mechatronics at UDE",
+      role: "Research Assistant",
       company: "Chair of Mechatronics at UDE",
       companylogo: require("./assets/images/imech.jpg"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "May 2022 – May 2024",
+      desc: "Contributions in robotics and automation to diverse reasearch-industry projects."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "R&D Intern",
+      company: "Emma, the Sleep Company",
+      companylogo: require("./assets/images/emma_logo.jpg"),
+      date: "Nov 2021 – April 2022",
+      desc: "Developed a storage and archive system for foam and mattress samples and conducted research and development on heating and cooling technologies for smart mattresses."
     }
   ]
 };
