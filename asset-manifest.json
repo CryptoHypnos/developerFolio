@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/developerFolio/static/css/main.eb38e1d2.css",
-    "main.js": "/developerFolio/static/js/main.0c5d8fb6.js",
+    "main.css": "/developerFolio/static/css/main.cc3bc4e1.css",
+    "main.js": "/developerFolio/static/js/main.c5c50c8e.js",
     "static/css/487.bb36206c.chunk.css": "/developerFolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/developerFolio/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/developerFolio/static/css/990.c6a7ee28.chunk.css",
@@ -11,6 +11,7 @@
     "static/media/autobin_thumbnail.png": "/developerFolio/static/media/autobin_thumbnail.ea4050c512fce843144e.png",
     "static/media/vera_thumbnail.png": "/developerFolio/static/media/vera_thumbnail.9f397159f0be25daae6d.png",
     "static/media/cobotank_thumbnail.png": "/developerFolio/static/media/cobotank_thumbnail.81154114dbbf4c13aa68.png",
+    "static/media/adc_car.jpg": "/developerFolio/static/media/adc_car.58dd9b5c1c17a9b93df8.jpg",
     "static/media/spot_the_pot_thumbnail.png": "/developerFolio/static/media/spot_the_pot_thumbnail.c63192c11e5afdba5c8b.png",
     "static/media/Montserrat-Regular.ttf": "/developerFolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/turtlebot.png": "/developerFolio/static/media/turtlebot.0b2375412a902a11613a.png",
@@ -35,15 +36,15 @@
     "static/media/pwaLogo.webp": "/developerFolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/developerFolio/index.html",
     "static/media/talksCardBack.svg": "/developerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.eb38e1d2.css.map": "/developerFolio/static/css/main.eb38e1d2.css.map",
-    "main.0c5d8fb6.js.map": "/developerFolio/static/js/main.0c5d8fb6.js.map",
+    "main.cc3bc4e1.css.map": "/developerFolio/static/css/main.cc3bc4e1.css.map",
+    "main.c5c50c8e.js.map": "/developerFolio/static/js/main.c5c50c8e.js.map",
     "487.bb36206c.chunk.css.map": "/developerFolio/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/developerFolio/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/developerFolio/static/css/990.c6a7ee28.chunk.css.map",
     "990.567a0b93.chunk.js.map": "/developerFolio/static/js/990.567a0b93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb38e1d2.css",
-    "static/js/main.0c5d8fb6.js"
+    "static/css/main.cc3bc4e1.css",
+    "static/js/main.c5c50c8e.js"
   ]
 }
