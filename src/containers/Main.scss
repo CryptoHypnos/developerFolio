@@ -5,3 +5,30 @@
   color: white;
   transition: "0.1s";
 }
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sexy-project-title {
+  text-align: center;
+  font-size: 3em; /* Increase the font size */
+  font-family: 'Arial', sans-serif; /* Use a nice font, you can choose another one */
+  font-weight: bold;
+  color: #cdc6c6; /* A nice color, you can adjust as needed */
+  margin-top: 40px; /* Space above the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.project-text {
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 20px; /* Ensure consistent spacing */
+}
+
+.project-image, .project-video {
+  margin-bottom: 20px; /* Ensure consistent spacing */
+}

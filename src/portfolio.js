@@ -170,7 +170,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Check it out!",
-          url: "/developerFolio/ProjectExperience/VERA"
+          url: "/developerFolio/projectExperience/VDI_ADC"
         }
         //  you can add extra buttons here.
       ]
@@ -182,7 +182,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Check it out!",
-          url: "http://nextu.se/"
+          url: "/developerFolio/projectExperience/VERA"
         }
       ]
     },
@@ -193,7 +193,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Check it out!",
-          url: "http://saayahealth.com/"
+          url: "/developerFolio/projectExperience/AutoBin"
         }
         //  you can add extra buttons here.
       ]
@@ -205,7 +205,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Check it out!",
-          url: "http://saayahealth.com/"
+          url: "/developerFolio/projectExperience/SpotThePot"
         }
         //  you can add extra buttons here.
       ]
@@ -217,7 +217,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Check it out!",
-          url: "http://saayahealth.com/"
+          url: "/developerFolio/projectExperience/SLAM_ObjectDetection"
         }
         //  you can add extra buttons here.
       ]
@@ -229,7 +229,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Check it out!",
-          url: "http://saayahealth.com/"
+          url: "/developerFolio/projectExperience/CoboTank"
         }
         //  you can add extra buttons here.
       ]
@@ -241,12 +241,13 @@ const bigProjects = {
       footerLink: [
         {
           name: "Check it out!",
-          url: "http://saayahealth.com/"
+          url: "/developerFolio/projectExperience/LAiLA"
         }
         //  you can add extra buttons here.
       ]
     },
   ],
+
   display: true // Set false to hide this section, defaults to true
 };
 
