@@ -161,7 +161,7 @@ const techStack = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Stuff that I've worked on and love to share",
+  subtitle: "Stuff that I've worked on and love to share :)",
   projects: [
     {
       image: require("./assets/images/adc_team.JPG"),
