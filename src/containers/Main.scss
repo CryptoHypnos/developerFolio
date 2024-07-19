@@ -15,7 +15,7 @@
 .sexy-project-title {
   text-align: center;
   font-size: 3em; /* Increase the font size */
-  font-family: 'Arial', sans-serif; /* Use a nice font, you can choose another one */
+  font-family: "Arial", sans-serif; /* Use a nice font, you can choose another one */
   font-weight: bold;
   color: #cdc6c6; /* A nice color, you can adjust as needed */
   margin-top: 40px; /* Space above the title */
@@ -23,23 +23,25 @@
 }
 
 .project-text {
-  font-size: 1.0em;
+  font-size: 1em;
   line-height: 1.5;
   text-align: center;
   margin-bottom: 20px; /* Ensure consistent spacing */
 }
 
-.project-image, .project-video {
+.project-image,
+.project-video {
   margin-bottom: 20px; /* Ensure consistent spacing */
 }
 
-.previous-project-button, .next-project-button {
+.previous-project-button,
+.next-project-button {
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
   z-index: 1000;
   padding: 10px 20px;
-  background-color: #6600FF;
+  background-color: #6600ff;
   color: white;
   border: none;
   border-radius: 5px; /* Rounded corners */
@@ -48,7 +50,8 @@
   transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
 }
 
-.previous-project-button:hover, .next-project-button:hover {
+.previous-project-button:hover,
+.next-project-button:hover {
   background-color: #555; /* Slightly lighter background on hover */
   transform: translateY(-50%) scale(1.05); /* Slightly larger on hover */
 }

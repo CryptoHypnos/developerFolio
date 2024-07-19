@@ -74,7 +74,7 @@ export default function StartupProject() {
                               className={
                                 isDark ? "dark-mode project-tag" : "project-tag"
                               }
-                              onClick={() => window.location.href = link.url}
+                              onClick={() => (window.location.href = link.url)}
                             >
                               {link.name}
                             </span>

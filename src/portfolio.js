@@ -166,7 +166,8 @@ const bigProjects = {
     {
       image: require("./assets/images/adc_team.JPG"),
       projectName: "VDI-ADC",
-      projectDesc: "Lead our team to 2nd place in the VDI Autonomous Driving Cup",
+      projectDesc:
+        "Lead our team to 2nd place in the VDI Autonomous Driving Cup",
       footerLink: [
         {
           name: "Check it out!",
@@ -190,7 +191,8 @@ const bigProjects = {
     {
       image: require("./assets/images/vera_thumbnail.png"),
       projectName: "VERA",
-      projectDesc: "Sensor modules and serializer for a simulation environment in UE5",
+      projectDesc:
+        "Sensor modules and serializer for a simulation environment in UE5",
       footerLink: [
         {
           name: "Check it out!",
@@ -245,8 +247,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
-    
+    }
   ],
 
   display: true // Set false to hide this section, defaults to true
@@ -271,7 +272,7 @@ const workExperiences = {
     {
       role: "Research Assistant",
       company: "Chair of Mechatronics at UDE",
-      companylogo: require("./assets/images/imech.jpg"),
+      companylogo: require("./assets/images/imech.png"),
       date: "May 2022 – May 2024",
       desc: "Contributions in robotics and automation to diverse reasearch-industry projects."
     },
@@ -292,7 +293,6 @@ const openSource = {
   showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
-
 
 // Achievement Section
 // Include certificates, talks etc
