@@ -1,5 +1,4 @@
 import React from "react";
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import "./App.scss";
 import Main from "./containers/Main";
 import ProjectExperience from "./pages/ProjectExperience";
@@ -78,17 +77,12 @@ export const projects = [
   }
 ];
 
-const App = () => {
+function App() {
   return (
-    <Router basename="/developerFolio">
-      <Routes>
-        <Route path="/" element={<Main />} />
-        {projects.map((project, index) => (
-          <Route key={index} path={project.path} element={project.element} />
-        ))}
-      </Routes>
-    </Router>
+    <div>
+      <Main />
+    </div>
   );
-};
+}
 
 export default App;
