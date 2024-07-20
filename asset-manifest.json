@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2e7db43f.css",
-    "main.js": "/static/js/main.d870e32c.js",
+    "main.js": "/static/js/main.9616b15a.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -32,13 +32,13 @@
     "static/media/arduino.png": "/static/media/arduino.bd57b7e0983b8b0aefbd.png",
     "static/media/matlab.png": "/static/media/matlab.f335d9b9eacee2295a80.png",
     "static/media/ros.png": "/static/media/ros.93da96340bf5fbc08c32.png",
-    "static/media/emma_logo.jpg": "/static/media/emma_logo.af41c98d7a27f72e1b7b.jpg",
     "static/media/csharp.png": "/static/media/csharp.fd37badac95f1f3d772b.png",
     "static/media/airbus.png": "/static/media/airbus.e44c9bc8312d453883a1.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/turtlebot_sim_recognition.png": "/static/media/turtlebot_sim_recognition.fc69596f56f6db0503ae.png",
     "static/media/turtlebot_sim_scan.png": "/static/media/turtlebot_sim_scan.c7432ed5cac485e9ad87.png",
     "static/media/ue.png": "/static/media/ue.65fcbbfd6093f217d550.png",
+    "static/media/emma_logo.jpg": "/static/media/emma_logo.65f3572e7958e30d6c58.jpg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
@@ -51,7 +51,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.2e7db43f.css.map": "/static/css/main.2e7db43f.css.map",
-    "main.d870e32c.js.map": "/static/js/main.d870e32c.js.map",
+    "main.9616b15a.js.map": "/static/js/main.9616b15a.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -59,6 +59,6 @@
   },
   "entrypoints": [
     "static/css/main.2e7db43f.css",
-    "static/js/main.d870e32c.js"
+    "static/js/main.9616b15a.js"
   ]
 }
