@@ -1,5 +1,35 @@
 @import "../_globalColor";
 
+.project-tab {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #000; /* Add border style */
+  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+  background-color: #1e2638; /* Optional: Set background color */
+  min-height: 400px; /* Ensure minimum height */
+  width: 100%; /* Ensure it takes full width */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.project-experience-container {
+  padding: 20px;
+  margin: 20px 0;
+  border: 0px solid #000; /* Add border style */
+  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+  background-color: #171C28; /* Optional: Set background color */
+  min-height: 500px; /* Ensure minimum height */
+  width: 100%; /* Ensure it takes full width */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.media-item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
 .dark-mode {
   background-color: $darkBackground;
   color: white;
@@ -37,11 +67,11 @@
 .previous-project-button,
 .next-project-button {
   position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 10%;
+  transform: translateY(800%);
   z-index: 1000;
   padding: 10px 20px;
-  background-color: #6600ff;
+  background-color: #55198B;
   color: white;
   border: none;
   border-radius: 5px; /* Rounded corners */
@@ -53,7 +83,6 @@
 .previous-project-button:hover,
 .next-project-button:hover {
   background-color: #555; /* Slightly lighter background on hover */
-  transform: translateY(-50%) scale(1.05); /* Slightly larger on hover */
 }
 
 .previous-project-button {
@@ -62,4 +91,25 @@
 
 .next-project-button {
   right: 10px;
+}
+.sexy-project-name {
+  font-size: 3.5rem;  // Larger font size
+  font-weight: bold; // Bold text
+  color: #f0eff0; // Custom color (adjust to your theme)
+  text-align: center; // Center aligned
+  text-transform: uppercase; // Uppercase text
+  letter-spacing: 5px; // Spacing between letters
+  margin: 20px 0; // Margin for spacing
+  padding: 10px; // Padding for extra spacing
+  border: 5px solid #55198B; // Border with the same color
+  border-radius: 10px; // Rounded corners
+  background-color: rgba(85, 25, 139, 0.1); // Slight background color with opacity
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Subtle shadow for depth
+
+  // Animation for hover effect
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05); // Slightly larger on hover
+    background-color: rgba(85, 25, 139, 0.2); // Darker background on hover
+  }
 }

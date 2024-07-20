@@ -1,146 +1,114 @@
-// src/pages/ProjectExperience.js
-
-import React, {useEffect, useRef} from "react"; // Import useEffect and useRef
+import React, { useEffect, useRef } from "react";
 import Header from "../components/header/Header";
-import Footer from "../components/footer/Footer";
-import Profile from "../containers/profile/Profile";
 import ScrollToTopButton from "../containers/topbutton/Top";
-import {StyleProvider} from "../contexts/StyleContext";
-import {useLocalStorage} from "../hooks/useLocalStorage";
-import Fade from "react-reveal/Fade"; // Import Fade
-import {useNavigate} from "react-router-dom";
-import {projects} from "../App"; // Import projects
+import { StyleProvider } from "../contexts/StyleContext";
+import { useLocalStorage } from "../hooks/useLocalStorage";
+import Fade from "react-reveal/Fade";
+import { bigProjects } from "../portfolio";
 import "../containers/Main.scss";
 
 const ProjectExperience = ({
   projectName,
   projectDetails,
   media,
-  footerLink
+  footerLink,
+  setActiveProject, // Receive setActiveProject as a prop
+  setNavigationProjects // Receive setNavigationProjects as a prop
 }) => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
-  const profileRef = useRef(null); // Create a ref for Profile
-  const navigate = useNavigate();
+  const profileRef = useRef(null);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [projectName]); // Add projectName as a dependency
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const buttons = document.querySelectorAll(
-        ".previous-project-button, .next-project-button"
-      );
-      const stopPosition = 100; // distance from the bottom of the page in pixels
-      const documentHeight = document.documentElement.scrollHeight;
-      const windowHeight = window.innerHeight;
-      const scrollPosition = window.scrollY || window.pageYOffset;
-      const bottomReached =
-        documentHeight - windowHeight - scrollPosition <= stopPosition;
-
-      buttons.forEach(button => {
-        button.style.visibility = bottomReached ? "hidden" : "visible";
-      });
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    window.addEventListener("load", handleScroll); // Ensure buttons are hidden on load if needed
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      window.removeEventListener("load", handleScroll);
-    };
-  }, []);
+    window.scrollTo(0, 3550);
+  }, [projectName]);
 
   const changeTheme = () => {
     setIsDark(!isDark);
   };
 
-  const currentIndex = projects.findIndex(
+  // Find the current project index
+  const currentIndex = bigProjects.projects.findIndex(
     project => project.projectName === projectName
   );
+
+  // Calculate the previous and next projects
   const previousProject =
-    projects[(currentIndex - 1 + projects.length) % projects.length];
-  const nextProject = projects[(currentIndex + 1) % projects.length];
+    bigProjects.projects[(currentIndex - 1 + bigProjects.projects.length) % bigProjects.projects.length];
+  const nextProject = bigProjects.projects[(currentIndex + 1) % bigProjects.projects.length];
+
+  // Pass the navigation projects to Main.js
+  useEffect(() => {
+    setNavigationProjects({ previousProject, nextProject });
+  }, [previousProject, nextProject, setNavigationProjects]);
 
   return (
-    <div className={isDark ? "dark-mode" : null}>
-      <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+    <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
+      <div className={isDark ? "dark-mode" : null}>
         <Header />
-        <div className="project-content">
-          <h1 className="sexy-project-title">{projectName}</h1>
+        <Fade bottom duration={2000} distance="40px">
+          <div className="main project-experience-container" ref={profileRef}>
+          <h2 className="sexy-project-name">{projectName}</h2>
           <p>{projectDetails}</p>
-          <div className="media-container center-content">
-            {media.map((item, index) => (
-              <Fade key={index} left={index % 2 === 0} right={index % 2 !== 0}>
-                {" "}
-                {/* Apply Fade effect */}
-                {item.type === "text" ? (
-                  <p
-                    className="project-text"
-                    style={{width: item.width, marginBottom: "20px"}}
-                  >
-                    {item.src}
-                  </p>
-                ) : item.type === "image" ? (
-                  <img
-                    src={item.src}
-                    alt={item.alt}
-                    className="project-image"
-                    style={{
-                      width: item.width,
-                      height: item.height,
-                      marginBottom: "20px"
-                    }}
-                  />
-                ) : item.type === "video" ? (
-                  <video
-                    controls
-                    className="project-video"
-                    style={{
-                      width: item.width,
-                      height: item.height,
-                      marginBottom: "20px"
-                    }}
-                  >
-                    <source src={item.src} type={item.format} />
-                    Your browser does not support the video tag.
-                  </video>
-                ) : item.type === "youtube" ? (
-                  <iframe
-                    className="project-video"
-                    width={item.width || "560"}
-                    height={item.height || "315"}
-                    src={item.src}
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    style={{marginBottom: "20px"}}
-                  ></iframe>
-                ) : null}
-              </Fade>
-            ))}
+            <div className="media-container center-content">
+              {media && media.length > 0 ? (
+                media.map((item, index) => (
+                  <Fade key={index} left={index % 2 === 0} right={index % 2 !== 0}>
+                    {item.type === "text" ? (
+                      <p
+                        className="project-text"
+                        style={{ width: item.width, marginBottom: "20px" }}
+                      >
+                        {item.src}
+                      </p>
+                    ) : item.type === "image" ? (
+                      <img
+                        src={item.src}
+                        alt={item.alt}
+                        className="project-image"
+                        style={{
+                          width: item.width,
+                          height: item.height,
+                          marginBottom: "20px"
+                        }}
+                      />
+                    ) : item.type === "video" ? (
+                      <video
+                        controls
+                        className="project-video"
+                        style={{
+                          width: item.width,
+                          height: item.height,
+                          marginBottom: "20px"
+                        }}
+                      >
+                        <source src={item.src} type={item.format} />
+                        Your browser does not support the video tag.
+                      </video>
+                    ) : item.type === "youtube" ? (
+                      <iframe
+                        className="project-video"
+                        width={item.width || "560"}
+                        height={item.height || "315"}
+                        src={item.src}
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        style={{ marginBottom: "20px" }}
+                      ></iframe>
+                    ) : null}
+                  </Fade>
+                ))
+              ) : (
+                <p>No media available</p>
+              )}
+            </div>
           </div>
-          <button
-            className="previous-project-button"
-            onClick={() => navigate(previousProject.path)}
-          >
-            Previous Project
-          </button>
-          <button
-            className="next-project-button"
-            onClick={() => navigate(nextProject.path)}
-          >
-            Next Project
-          </button>
-        </div>
-        <Profile ref={profileRef} /> {/* Add ref to Profile component */}
-        <Footer footerLink={footerLink} />
+        </Fade>
         <ScrollToTopButton />
-      </StyleProvider>
-    </div>
+      </div>
+    </StyleProvider>
   );
 };
 
