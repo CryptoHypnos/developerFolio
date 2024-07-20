@@ -50,28 +50,6 @@ const Main = () => {
     }
   }, []);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY || window.pageYOffset;
-      const yStart = 3540; // Adjust this value as needed
-      const yEnd = 10000; // Adjust this value as needed
-
-      if (scrollPosition > yStart && scrollPosition < yEnd) {
-        setShowButtons(true);
-      } else {
-        setShowButtons(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    window.addEventListener("load", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      window.removeEventListener("load", handleScroll);
-    };
-  }, []);
-
   const changeTheme = () => {
     setIsDark(!isDark);
   };
@@ -89,49 +67,6 @@ const Main = () => {
             <StackProgress />
             <Education />
             <WorkExperience />
-            <Projects setActiveProject={setActiveProject} />
-            {activeProject ? (
-              <div className="project-tab">
-                <ProjectExperience
-                  projectName={activeProject.projectName}
-                  projectDetails={activeProject.projectDetails}
-                  media={activeProject.media}
-                  footerLink={activeProject.footerLink}
-                  setActiveProject={setActiveProject} // Pass setActiveProject here
-                  setNavigationProjects={setNavigationProjects} // Pass setNavigationProjects here
-                />
-              </div>
-            ) : (
-              <StartupProject setActiveProject={setActiveProject} />
-            )}
-            {showButtons && activeProject && (
-              <div className="project-navigation-buttons">
-                <button
-                  className="previous-project-button"
-                  onClick={() => {
-                    window.scrollTo({
-                      top: window.scrollY - 100,
-                      behavior: "smooth"
-                    });
-                    setActiveProject(navigationProjects.previousProject);
-                  }}
-                >
-                  Previous Project
-                </button>
-                <button
-                  className="next-project-button"
-                  onClick={() => {
-                    window.scrollTo({
-                      top: window.scrollY - 100,
-                      behavior: "smooth"
-                    });
-                    setActiveProject(navigationProjects.nextProject);
-                  }}
-                >
-                  Next Project
-                </button>
-              </div>
-            )}
             <Achievement />
             <Blogs />
             <Talks />
