@@ -7,37 +7,37 @@ import ProjectExperience from "./pages/ProjectExperience";
 // Define projects and their media
 const VDI_ADC = {
   projectName: "VDI-ADC",
-  projectDetails: "",
+  projectDetails: ""
 };
 
 const VERA = {
   projectName: "VERA",
-  projectDetails: "",
+  projectDetails: ""
 };
 
 const AutoBin = {
   projectName: "AutoBin",
-  projectDetails: "",
+  projectDetails: ""
 };
 
 const SpotThePot = {
   projectName: "Spot the Pot",
-  projectDetails: "",
+  projectDetails: ""
 };
 
 const SLAM_ObjectDetection = {
   projectName: "SLAM-based Object Detection",
-  projectDetails: "",
+  projectDetails: ""
 };
 
 const CoboTank = {
   projectName: "CoboTank",
-  projectDetails: "",
+  projectDetails: ""
 };
 
 const LAiLA = {
   projectName: "LAiLA",
-  projectDetails: "",
+  projectDetails: ""
 };
 
 export const projects = [

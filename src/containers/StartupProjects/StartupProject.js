@@ -1,11 +1,12 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import "./StartupProjects.scss";
-import { bigProjects } from "../../portfolio";
-import { Fade } from "react-reveal";
+import {bigProjects} from "../../portfolio";
+import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function StartupProject({ setActiveProject }) { // Accept setActiveProject as a prop
-  const { isDark } = useContext(StyleContext);
+export default function StartupProject({setActiveProject}) {
+  // Accept setActiveProject as a prop
+  const {isDark} = useContext(StyleContext);
   if (!bigProjects.display) {
     return null;
   }

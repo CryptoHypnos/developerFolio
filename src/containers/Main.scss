@@ -16,7 +16,7 @@
   margin: 20px 0;
   border: 0px solid #000; /* Add border style */
   border-radius: 8px; /* Optional: Add border radius for rounded corners */
-  background-color: #171C28; /* Optional: Set background color */
+  background-color: #171c28; /* Optional: Set background color */
   min-height: 500px; /* Ensure minimum height */
   width: 100%; /* Ensure it takes full width */
   box-sizing: border-box; /* Include padding and border in element's total width and height */
@@ -28,7 +28,6 @@
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-
 
 .dark-mode {
   background-color: $darkBackground;
@@ -71,7 +70,7 @@
   transform: translateY(800%);
   z-index: 1000;
   padding: 10px 20px;
-  background-color: #55198B;
+  background-color: #55198b;
   color: white;
   border: none;
   border-radius: 5px; /* Rounded corners */
@@ -93,7 +92,7 @@
   right: 10px;
 }
 .sexy-project-name {
-  font-size: 3.5rem;  // Larger font size
+  font-size: 3.5rem; // Larger font size
   font-weight: bold; // Bold text
   color: #f0eff0; // Custom color (adjust to your theme)
   text-align: center; // Center aligned
@@ -101,9 +100,14 @@
   letter-spacing: 5px; // Spacing between letters
   margin: 20px 0; // Margin for spacing
   padding: 10px; // Padding for extra spacing
-  border: 5px solid #55198B; // Border with the same color
+  border: 5px solid #55198b; // Border with the same color
   border-radius: 10px; // Rounded corners
-  background-color: rgba(85, 25, 139, 0.1); // Slight background color with opacity
+  background-color: rgba(
+    85,
+    25,
+    139,
+    0.1
+  ); // Slight background color with opacity
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Subtle shadow for depth
 
   // Animation for hover effect

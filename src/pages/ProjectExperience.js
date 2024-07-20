@@ -1,10 +1,10 @@
-import React, { useEffect, useRef } from "react";
+import React, {useEffect, useRef} from "react";
 import Header from "../components/header/Header";
 import ScrollToTopButton from "../containers/topbutton/Top";
-import { StyleProvider } from "../contexts/StyleContext";
-import { useLocalStorage } from "../hooks/useLocalStorage";
+import {StyleProvider} from "../contexts/StyleContext";
+import {useLocalStorage} from "../hooks/useLocalStorage";
 import Fade from "react-reveal/Fade";
-import { bigProjects } from "../portfolio";
+import {bigProjects} from "../portfolio";
 import "../containers/Main.scss";
 
 const ProjectExperience = ({
@@ -34,30 +34,38 @@ const ProjectExperience = ({
 
   // Calculate the previous and next projects
   const previousProject =
-    bigProjects.projects[(currentIndex - 1 + bigProjects.projects.length) % bigProjects.projects.length];
-  const nextProject = bigProjects.projects[(currentIndex + 1) % bigProjects.projects.length];
+    bigProjects.projects[
+      (currentIndex - 1 + bigProjects.projects.length) %
+        bigProjects.projects.length
+    ];
+  const nextProject =
+    bigProjects.projects[(currentIndex + 1) % bigProjects.projects.length];
 
   // Pass the navigation projects to Main.js
   useEffect(() => {
-    setNavigationProjects({ previousProject, nextProject });
+    setNavigationProjects({previousProject, nextProject});
   }, [previousProject, nextProject, setNavigationProjects]);
 
   return (
-    <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
+    <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
       <div className={isDark ? "dark-mode" : null}>
         <Header />
         <Fade bottom duration={2000} distance="40px">
           <div className="main project-experience-container" ref={profileRef}>
-          <h2 className="sexy-project-name">{projectName}</h2>
-          <p>{projectDetails}</p>
+            <h2 className="sexy-project-name">{projectName}</h2>
+            <p>{projectDetails}</p>
             <div className="media-container center-content">
               {media && media.length > 0 ? (
                 media.map((item, index) => (
-                  <Fade key={index} left={index % 2 === 0} right={index % 2 !== 0}>
+                  <Fade
+                    key={index}
+                    left={index % 2 === 0}
+                    right={index % 2 !== 0}
+                  >
                     {item.type === "text" ? (
                       <p
                         className="project-text"
-                        style={{ width: item.width, marginBottom: "20px" }}
+                        style={{width: item.width, marginBottom: "20px"}}
                       >
                         {item.src}
                       </p>
@@ -95,7 +103,7 @@ const ProjectExperience = ({
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
-                        style={{ marginBottom: "20px" }}
+                        style={{marginBottom: "20px"}}
                       ></iframe>
                     ) : null}
                   </Fade>
