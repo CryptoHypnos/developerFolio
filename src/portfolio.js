@@ -92,6 +92,10 @@ https://fontawesome.com/icons?d=gallery */
       iconUrl: require("./assets/images/c++.png")
     },
     {
+      skillName: "SQL",
+      iconUrl: require("./assets/images/sql.png")
+    },
+    {
       skillName: "Docker",
       iconUrl: require("./assets/images/docker.png")
     },
@@ -193,7 +197,7 @@ const bigProjects = {
         },
         {
           type: "image",
-          src: require("./assets/images/adc_car.jpg"),
+          src: require("./assets/images/adc_car.png"),
           alt: "The Driving Dutchman",
           width: "58.2%",
           height: "auto"
@@ -204,7 +208,7 @@ const bigProjects = {
         },
         {
           type: "image",
-          src: require("./assets/images/adc_team_full.jpg"),
+          src: require("./assets/images/adc_team_full.png"),
           alt: "The Driving Dutchman",
           width: "58.2%",
           height: "auto"
@@ -490,14 +494,14 @@ const bigProjects = {
         },
         {
           type: "image",
-          src: require("./assets/images/cobotank_1.jpg"),
+          src: require("./assets/images/cobotank_1.png"),
           alt: "CoboTank",
           width: "40%",
           height: "auto"
         },
         {
           type: "image",
-          src: require("./assets/images/cobotank_2.jpg"),
+          src: require("./assets/images/cobotank_2.png"),
           alt: "CoboTank",
           width: "40%",
           height: "auto"
@@ -509,7 +513,7 @@ const bigProjects = {
         },
         {
           type: "image",
-          src: require("./assets/images/cobotank_minister.jpg"),
+          src: require("./assets/images/cobotank_minister.png"),
           alt: "CoboTank",
           width: "40%",
           height: "auto"
@@ -547,7 +551,7 @@ const workExperiences = {
     {
       role: "R&D Intern",
       company: "Emma, the Sleep Company",
-      companylogo: require("./assets/images/emma_logo.jpg"),
+      companylogo: require("./assets/images/emma_logo.png"),
       date: "Nov 2021 – April 2022",
       desc: "Developed a storage and archive system for foam and mattress samples and conducted research and development on heating and cooling technologies for smart mattresses."
     }

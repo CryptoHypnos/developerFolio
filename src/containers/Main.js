@@ -49,7 +49,7 @@ const Main = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY || window.pageYOffset;
-      const yStart = 3500; // Adjust this value as needed
+      const yStart = 3300; // Adjust this value as needed
       const yEnd = 10000; // Adjust this value as needed
 
       if (scrollPosition > yStart && scrollPosition < yEnd) {
