@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/developerFolio/static/css/main.4f87bff4.css",
-    "main.js": "/developerFolio/static/js/main.1f22f8a8.js",
+    "main.js": "/developerFolio/static/js/main.05f2a523.js",
     "static/css/487.bb36206c.chunk.css": "/developerFolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/developerFolio/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/developerFolio/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.567a0b93.chunk.js": "/developerFolio/static/js/990.567a0b93.chunk.js",
-    "static/media/adc_team.JPG": "/developerFolio/static/media/adc_team.d2477a2bc04ed6d3429f.JPG",
+    "static/media/adc_team.png": "/developerFolio/static/media/adc_team.1545b4b8a1e36f63d2d8.png",
     "static/media/cobotank_minister.png": "/developerFolio/static/media/cobotank_minister.264cefe0c2d6dd65f396.png",
     "static/media/turtlebot_real_environment_lab.png": "/developerFolio/static/media/turtlebot_real_environment_lab.0324a7741b1628b52bb7.png",
     "static/media/turtlebot_sim.png": "/developerFolio/static/media/turtlebot_sim.e74eda3d7cd27169fb6a.png",
@@ -52,7 +52,7 @@
     "index.html": "/developerFolio/index.html",
     "static/media/talksCardBack.svg": "/developerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.4f87bff4.css.map": "/developerFolio/static/css/main.4f87bff4.css.map",
-    "main.1f22f8a8.js.map": "/developerFolio/static/js/main.1f22f8a8.js.map",
+    "main.05f2a523.js.map": "/developerFolio/static/js/main.05f2a523.js.map",
     "487.bb36206c.chunk.css.map": "/developerFolio/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/developerFolio/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/developerFolio/static/css/990.c6a7ee28.chunk.css.map",
@@ -60,6 +60,6 @@
   },
   "entrypoints": [
     "static/css/main.4f87bff4.css",
-    "static/js/main.1f22f8a8.js"
+    "static/js/main.05f2a523.js"
   ]
 }
