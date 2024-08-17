@@ -168,7 +168,7 @@ const bigProjects = {
   subtitle: "Stuff that I've worked on and love to share :)",
   projects: [
     {
-      image: require("./assets/images/adc_team.JPG"),
+      image: require("./assets/images/adc_team.png"),
       projectName: "VDI-ADC",
       projectDesc:
         "Lead our team to 2nd place in the VDI Autonomous Driving Cup",
