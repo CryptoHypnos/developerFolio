@@ -55,17 +55,25 @@ const Main = () => {
       const scrollPosition = window.scrollY || window.pageYOffset;
       const yStart = 3300; // Adjust this value as needed
       const yEnd = 10000; // Adjust this value as needed
-
+  
       if (scrollPosition > yStart && scrollPosition < yEnd) {
         setShowButtons(true);
       } else {
         setShowButtons(false);
       }
+  
+      const distanceFromBottom = 400; // Set the distance from the bottom where buttons should hide
+      const documentHeight = document.documentElement.scrollHeight;
+      const windowHeight = window.innerHeight;
+  
+      if (scrollPosition + windowHeight >= documentHeight - distanceFromBottom) {
+        setShowButtons(false); // Hide buttons when near the bottom
+      }
     };
-
+  
     window.addEventListener("scroll", handleScroll);
     window.addEventListener("load", handleScroll);
-
+  
     return () => {
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("load", handleScroll);

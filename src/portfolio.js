@@ -32,7 +32,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/CryptoHypnos",
+  //github: "https://github.com/CryptoHypnos",
   linkedin: "https://www.linkedin.com/in/rachid-alhourani-98213214b/",
   gmail: "rachidalhourani@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -48,7 +48,7 @@ const skillsSection = {
   skills: [
     emoji("⚡ Develop autonomous robotic systems"),
     emoji(
-      "⚡ Create full-stack automation solutions, like the optimization toolbox I'm making for Airbus"
+      "⚡ Create full-stack automation solutions, like the optimization toolbox I'm making at Airbus"
     ),
     emoji(
       "⚡ Lead teams to success, such as winning 2nd place in the VDI Autonomous Driving Cup"
@@ -115,26 +115,25 @@ const educationInfo = {
     {
       schoolName: "University of Duisburg-Essen",
       logo: require("./assets/images/dueLogo.jpg"),
-      subHeader: "Master of Science in Mechatronics",
+      subHeader: "M.Sc. Mechatronics",
       duration: "October 2022 - October 2024",
       desc: "90% average and heavy investment in practical projects",
       // You can add second level bullet points here
       descBullets: [
         "Thesis (Ongoing | Airbus): Design Optimization of Carbon Fiber Laminates for Aerospace Applications",
-        "Team leader in the VDI - Autonomous Driving Cup for scaled cars, winning second place",
-        "Developed an autonomous plant-watering robot with an international team"
+        "Team leader in the VDI - Autonomous Driving Cup, winning second place",
+        "Developed an autonomous plant-watering robot"
       ]
     },
     {
       schoolName: "University of Duisburg-Essen",
       logo: require("./assets/images/dueLogo.jpg"),
-      subHeader: "Bachelor of Science in Mechanical Engineering",
+      subHeader: "B.Sc. Mechanical Engineering",
       duration: "October 2019 - March 2022",
       desc: "Thesis (Grade: 100%): SLAM-Assisted Object Detection in Real and Simulated Environments",
       descBullets: [
-        "The thesis won first place in the yearly contest hosted by the Mechatronics Alumni Group",
-        "TurtleBot3-based project powered by ROS (Robot Operating System) and the robotics simulator Gazebo",
-        "Developed an object detection algorithm powered by SLAM technology"
+        "First place award in the yearly contest hosted by the Mechatronics Alumni Group",
+        "TurtleBot3-based project for object detection powered by SLAM technology"
       ]
     }
   ]
@@ -182,7 +181,8 @@ const bigProjects = {
       media: [
         {
           type: "text",
-          src: "Summary about the project. Full adventure awaits you when you scroll down!"
+          src: "We won second place out of the 8 competing teams from universities all around Germany. This video is a Summary about the project. Full adventure video awaits you when you scroll down!",
+          width: "896"
         },
         {
           type: "youtube",
@@ -193,7 +193,8 @@ const bigProjects = {
         },
         {
           type: "text",
-          src: "Our pride and joy: The Driving Dutchman. The cool story behind the name is a story worth telling."
+          src: "Our pride and joy: The Driving Dutchman. The story behind the pirate eyepatch and the name is reserved for interviews and coffee breaks.",
+          width: "896"
         },
         {
           type: "image",
@@ -204,12 +205,13 @@ const bigProjects = {
         },
         {
           type: "text",
-          src: "Our team. A healthy mixture of Software Engineers, Mechanical Engineers, Robotcists, and our own AI-Expert"
+          src: "Our team. A healthy mixture of Software Engineers, Mechanical Engineers, Robotcists, and our own AI-Expert",
+          width: "58.2%"
         },
         {
           type: "image",
           src: require("./assets/images/adc_team_full.png"),
-          alt: "The Driving Dutchman",
+          alt: "Full ADC Team",
           width: "58.2%",
           height: "auto"
         },
@@ -226,7 +228,7 @@ const bigProjects = {
     {
       image: require("./assets/images/laila_thumbnail.png"),
       projectName: "LAiLA",
-      projectDesc: "Full-stack optimization toolbox development for Airbus",
+      projectDesc: "Full-stack optimization toolbox development at Airbus",
       footerLink: [
         {
           name: "Check it out!",
@@ -237,7 +239,7 @@ const bigProjects = {
       media: [
         {
           type: "text",
-          src: "An intense moment with the AFP robot as I was doing my first ever laminate print",
+          src: "An intense moment with the Automated Fiber Placement robot as I was monitoring my first ever laminate print",
           width: "58.2%"
         },
         {
@@ -254,7 +256,7 @@ const bigProjects = {
         },
         {
           type: "text",
-          src: "For a specific load scenario, the most optimal combination of these fixed angles is selected to minimise the mass while ensuring the structural integrity with an adequate safety margin. However, this traditional approach can be refined, i.e., the mass can be further minimised, by introducing variable angle layers. This refinement increases the number of parameters needed to define the final laminate. Thus, a suitable optimization process for the parameters that describe the variable angle tow (VAT) and the number of layers must be implemented so that the mass is minimal for a given load case. The optimization process must further consider the viability of the chosen parameters imposed by the hardware restrictions of AFP and the physical properties of the carbon fiber material so that the produced laminate is free of defects.",
+          src: "This traditional approach can be refined, i.e., the mass can be further minimised, by introducing variable angle layer. An optimization is needed to figure out the shape of the curve in that variable angle layer.",
           width: "58.2%"
         },
         {
@@ -266,7 +268,7 @@ const bigProjects = {
         },
         {
           type: "text",
-          src: "What I am currently doing at Airbus is building a full-stack optimizer to help find the right parameters for the VAT. The optimizer is scalabe, has visualization featuers, and is able to communicate with with multiple worker instances over the cloud.",
+          src: "What I am currently doing at Airbus is building a full-stack optimizer to find the right shape fo the curve.",
           width: "58.2%"
         },
         {
@@ -275,7 +277,19 @@ const bigProjects = {
           alt: "LAiLA GUI",
           width: "58.2%",
           height: "auto"
-        }
+        },
+        {
+          type: "text",
+          src: "The optimizer is vertically and horizontally scalabe, has visualization featuers, and is able to communicate with with multiple worker instances over the cloud.",
+          width: "58.2%"
+        },
+        {
+          type: "image",
+          src: require("./assets/images/opt_toolbox.png"),
+          alt: "Toolbox Architecture",
+          width: "58.2%",
+          height: "auto"
+        },
       ]
     },
     {
@@ -292,7 +306,7 @@ const bigProjects = {
       media: [
         {
           type: "text",
-          src: "As luck would have I did not document my contributions to the project as much as I should have. Nevertheless, the video shows my self-built RADAR implementation inside the unity engine. The output of the module is encoded in the Asterix Category 240 as per the Eurocontrol specifications. The encoder was also self developed.",
+          src: "As luck would have it, I did not document my contributions to the project as much as I should have. Nevertheless, the video shows my self-built RADAR implementation in Unreal Engine 5, the visualization in a commercially used software for RADARs, and the ground truth in MATLAB. The output of the module is encoded in the Asterix Category 240 as per the Eurocontrol specifications. The encoder was also self developed.",
           width: "58.2%"
         },
         {
@@ -335,7 +349,7 @@ const bigProjects = {
         },
         {
           type: "text",
-          src: "Here is a snippet of the digital during an automated run. Both navigation and control were fully autonomus.",
+          src: "Here is a snippet of the digital twin during an automated run. Both navigation and control were fully autonomus.",
           width: "58.2%"
         },
         {
@@ -347,7 +361,7 @@ const bigProjects = {
         },
         {
           type: "text",
-          src: "And here is a snippet of the real ship doing exactly the same thing, just not in a tight canal for obvious reasons :)",
+          src: "And here is a snippet of the real ship doing exactly the same thing, just not in a simulated tight canal for obvious reasons :)",
           width: "58.2%"
         },
         {
@@ -373,7 +387,7 @@ const bigProjects = {
       media: [
         {
           type: "text",
-          src: "Your fully automated plant watering robot on a tight budget",
+          src: "Fully automated plant watering robot on a tight budget",
           width: "58.2%"
         },
         {
@@ -411,7 +425,7 @@ const bigProjects = {
         },
         {
           type: "text",
-          src: "The project won first place at the yearly contest held by the Chair of Mechatronics at the University of Duisburg-Essen",
+          src: "The project won first place at the yearly contest held by the Chair of Mechatronics at the University of Duisburg-Essen.",
           width: "58.2%"
         },
         {
@@ -423,7 +437,7 @@ const bigProjects = {
         },
         {
           type: "text",
-          src: "The idea is to create a 2D map of the environment and use object detection to identify objects based on their toplogy. It all started with a simulation.",
+          src: "The idea was to create a 2D map of the environment and use object detection to identify objects based on their toplogy. It all started with a simulation.",
           width: "58.2%"
         },
         {
@@ -489,7 +503,7 @@ const bigProjects = {
       media: [
         {
           type: "text",
-          src: "Another project where ther was much more work than there was documentation. Below are pictures of the robots that for which I helpeded impement inverse kinematicss using ROS.",
+          src: "Another project where there was more work than documentation. Below are pictures of the robots for which I helpeded impement the inverse kinematicss using ROS.",
           width: "58.2%"
         },
         {
@@ -508,7 +522,7 @@ const bigProjects = {
         },
         {
           type: "text",
-          src: "The modules we implemented were used as part of an automation show case at the opening of the facility done by the state minister of transportation",
+          src: "The modules implemented were used as part of an automation showcase at the opening of the research facility HaFoLA. The state minister of transportation was in attendance.",
           width: "58.2%"
         },
         {
@@ -546,14 +560,22 @@ const workExperiences = {
       company: "Chair of Mechatronics at UDE",
       companylogo: require("./assets/images/imech.png"),
       date: "May 2022 – May 2024",
-      desc: "Contributions in robotics and automation to diverse reasearch-industry projects."
+      desc: "",
+      descBullets: [
+        "Contributions in robotics and automation to diverse reasearch-industry projects",
+        "Check out the projects section!"
+      ]
     },
     {
       role: "R&D Intern",
       company: "Emma, the Sleep Company",
       companylogo: require("./assets/images/emma_logo.png"),
       date: "Nov 2021 – April 2022",
-      desc: "Developed a storage and archive system for foam and mattress samples and conducted research and development on heating and cooling technologies for smart mattresses."
+      desc: "",
+      descBullets: [
+        "Developed a storage and archive system for foam and mattress samples",
+        "R&D epxeriments for heating and cooling technologies of smart mattresses"
+      ]
     }
   ]
 };
