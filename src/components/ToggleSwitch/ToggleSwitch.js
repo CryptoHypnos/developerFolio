@@ -14,8 +14,9 @@ const ToggleSwitch = () => {
         type="checkbox"
         checked={isDark}
         onChange={() => {
-          styleContext.changeTheme();
-          setChecked(!isChecked);
+          styleContext.changeTheme(); // Toggle the theme
+          setChecked(!isChecked); // Update the state for the switch
+          window.location.href = "/developerFolio/";
         }}
       />
       <span className="slider round">

@@ -289,7 +289,7 @@ const bigProjects = {
           alt: "Toolbox Architecture",
           width: "58.2%",
           height: "auto"
-        },
+        }
       ]
     },
     {
