@@ -29,7 +29,7 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="/developerFolio" className="logo">
+        <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
@@ -45,46 +45,46 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="/developerFolio/#skills">Skills</a>
+              <a href="/#skills">Skills</a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="/developerFolio/#projects">Projects</a>
+              <a href="/#projects">Projects</a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="/developerFolio/#experience">Work Experiences</a>
+              <a href="/#experience">Work Experiences</a>
             </li>
           )}
           {viewProjects && (
             <li>
-              <a href="/developerFolio/#projects">Projects</a>
+              <a href="/#projects">Projects</a>
             </li>
           )}
           {viewOpenSource && (
             <li>
-              <a href="/developerFolio/#opensource">Open Source</a>
+              <a href="/#opensource">Open Source</a>
             </li>
           )}
           {viewBlog && (
             <li>
-              <a href="/developerFolio/#blogs">Blogs</a>
+              <a href="/#blogs">Blogs</a>
             </li>
           )}
           {viewTalks && (
             <li>
-              <a href="/developerFolio/#talks">Talks</a>
+              <a href="/#talks">Talks</a>
             </li>
           )}
           {viewResume && (
             <li>
-              <a href="/developerFolio/#resume">Resume</a>
+              <a href="/#resume">Resume</a>
             </li>
           )}
           <li>
-            <a href="/developerFolio/#contact">Contact Me</a>
+            <a href="/#contact">Contact Me</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
