@@ -15,7 +15,8 @@ import {
   bigProjects
 } from "../../portfolio";
 
-function Header({ setActiveProject }) { // Add setActiveProject as a prop
+function Header({setActiveProject}) {
+  // Add setActiveProject as a prop
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
@@ -26,15 +27,15 @@ function Header({ setActiveProject }) { // Add setActiveProject as a prop
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
 
-const handleProjectsClick = () => {
-  setActiveProject(null); // Clear the current active project
-  document.getElementById("menu-btn").checked = false; // Close the mobile menu
-  window.location.href = "/#projects"; // Scroll to the Projects section
-};
+  const handleProjectsClick = () => {
+    setActiveProject(null); // Clear the current active project
+    document.getElementById("menu-btn").checked = false; // Close the mobile menu
+    window.location.href = "/#projects"; // Scroll to the Projects section
+  };
 
-const handleLinkClick = () => {
-  document.getElementById("menu-btn").checked = false; // Close the mobile menu
-};
+  const handleLinkClick = () => {
+    document.getElementById("menu-btn").checked = false; // Close the mobile menu
+  };
 
   return (
     <Headroom>
@@ -55,7 +56,9 @@ const handleLinkClick = () => {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="/#skills" onClick={handleLinkClick}>Skills </a>
+              <a href="/#skills" onClick={handleLinkClick}>
+                Skills{" "}
+              </a>
             </li>
           )}
           {viewAchievement && (
@@ -67,7 +70,9 @@ const handleLinkClick = () => {
           )}
           {viewExperience && (
             <li>
-              <a href="/#experience" onClick={handleLinkClick}>Work Experiences</a>
+              <a href="/#experience" onClick={handleLinkClick}>
+                Work Experiences
+              </a>
             </li>
           )}
           {viewProjects && (
@@ -79,26 +84,36 @@ const handleLinkClick = () => {
           )}
           {viewOpenSource && (
             <li>
-              <a href="/#opensource" onClick={handleLinkClick}>Open Source</a>
+              <a href="/#opensource" onClick={handleLinkClick}>
+                Open Source
+              </a>
             </li>
           )}
           {viewBlog && (
             <li>
-              <a href="/#blogs" onClick={handleLinkClick}>Blogs</a>
+              <a href="/#blogs" onClick={handleLinkClick}>
+                Blogs
+              </a>
             </li>
           )}
           {viewTalks && (
             <li>
-              <a href="/#talks" onClick={handleLinkClick}>Talks</a>
+              <a href="/#talks" onClick={handleLinkClick}>
+                Talks
+              </a>
             </li>
           )}
           {viewResume && (
             <li>
-              <a href="/#resume" onClick={handleLinkClick}>Resume</a>
+              <a href="/#resume" onClick={handleLinkClick}>
+                Resume
+              </a>
             </li>
           )}
           <li>
-            <a href="/#contact" onClick={handleLinkClick}>Contact Me</a>
+            <a href="/#contact" onClick={handleLinkClick}>
+              Contact Me
+            </a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

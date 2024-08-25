@@ -122,9 +122,10 @@ const Main = () => {
                   onClick={() => {
                     setActiveProject(navigationProjects.previousProject);
                     setTimeout(() => {
-                      const projectsAnchor = document.getElementById("projects");
+                      const projectsAnchor =
+                        document.getElementById("projects");
                       if (projectsAnchor) {
-                        projectsAnchor.scrollIntoView({ behavior: "smooth" });
+                        projectsAnchor.scrollIntoView({behavior: "smooth"});
                       }
                     }, 100);
                   }}
@@ -136,9 +137,10 @@ const Main = () => {
                   onClick={() => {
                     setActiveProject(navigationProjects.nextProject);
                     setTimeout(() => {
-                      const projectsAnchor = document.getElementById("projects");
+                      const projectsAnchor =
+                        document.getElementById("projects");
                       if (projectsAnchor) {
-                        projectsAnchor.scrollIntoView({ behavior: "smooth" });
+                        projectsAnchor.scrollIntoView({behavior: "smooth"});
                       }
                     }, 100);
                   }}

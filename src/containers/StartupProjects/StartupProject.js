@@ -59,30 +59,33 @@ export default function StartupProject({setActiveProject}) {
                       {project.projectDesc}
                     </p>
                     {project.footerLink ? (
-                    <div className="project-card-footer">
-                      {project.footerLink.map((link, i) => {
-                        return (
-                          <span
-                            key={i}
-                            className={
-                              isDark ? "dark-mode project-tag" : "project-tag"
-                            }
-                            onClick={() => {
-                              setActiveProject(project); // Set active project with complete data
-                              setTimeout(() => {
-                                const projectsAnchor = document.getElementById("projects");
-                                if (projectsAnchor) {
-                                  projectsAnchor.scrollIntoView({ behavior: "smooth" });
-                                }
-                              }, 100);
-                            }}
-                          >
-                            {link.name}
-                          </span>
-                        );
-                      })}
-                    </div>
-                  ) : null}
+                      <div className="project-card-footer">
+                        {project.footerLink.map((link, i) => {
+                          return (
+                            <span
+                              key={i}
+                              className={
+                                isDark ? "dark-mode project-tag" : "project-tag"
+                              }
+                              onClick={() => {
+                                setActiveProject(project); // Set active project with complete data
+                                setTimeout(() => {
+                                  const projectsAnchor =
+                                    document.getElementById("projects");
+                                  if (projectsAnchor) {
+                                    projectsAnchor.scrollIntoView({
+                                      behavior: "smooth"
+                                    });
+                                  }
+                                }, 100);
+                              }}
+                            >
+                              {link.name}
+                            </span>
+                          );
+                        })}
+                      </div>
+                    ) : null}
                   </div>
                 </div>
               );
