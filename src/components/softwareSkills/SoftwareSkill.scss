@@ -25,11 +25,23 @@
   flex-basis: 10%; /* Adjust the percentage to control the number of items per row */
 }
 
+
 .custom-icon {
-  width: 70px; /* Adjust the size as needed */
+  width: 70px; /* Original size */
   height: 70px;
   margin-bottom: 5px;
+
+  @media (max-width: 768px) {
+    width: 35px; /* Half of the original width */
+    height: 35px; /* Half of the original height */
+  }
+
+  @media (max-width: 576px) {
+    width: 35px; /* Half of the original width */
+    height: 35px; /* Half of the original height */
+  }
 }
+
 
 .software-skill-inline > p {
   color: $subTitle;
@@ -65,6 +77,6 @@
 
 @media (max-width: 576px) {
   .software-skill-inline {
-    flex-basis: 100%; /* 1 item per row */
+    flex-basis: 1%; /* 2 item per row */
   }
 }
