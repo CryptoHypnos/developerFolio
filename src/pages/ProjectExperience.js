@@ -12,27 +12,21 @@ const ProjectExperience = ({
   projectDetails,
   media,
   footerLink,
-  setActiveProject, // Receive setActiveProject as a prop
-  setNavigationProjects // Receive setNavigationProjects as a prop
+  setActiveProject, 
+  setNavigationProjects 
 }) => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
   const profileRef = useRef(null);
 
-  useEffect(() => {
-    window.scrollTo(0, 3550);
-  }, [projectName]);
-
   const changeTheme = () => {
     setIsDark(!isDark);
   };
 
-  // Find the current project index
   const currentIndex = bigProjects.projects.findIndex(
     project => project.projectName === projectName
   );
 
-  // Calculate the previous and next projects
   const previousProject =
     bigProjects.projects[
       (currentIndex - 1 + bigProjects.projects.length) %
@@ -41,17 +35,17 @@ const ProjectExperience = ({
   const nextProject =
     bigProjects.projects[(currentIndex + 1) % bigProjects.projects.length];
 
-  // Pass the navigation projects to Main.js
   useEffect(() => {
     setNavigationProjects({previousProject, nextProject});
   }, [previousProject, nextProject, setNavigationProjects]);
 
   return (
-    <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+    <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
       <div className={isDark ? "dark-mode" : null}>
         <Header />
         <Fade bottom duration={2000} distance="40px">
           <div className="main project-experience-container" ref={profileRef}>
+            <div id="projects" style={{ position: "absolute", top: "-100px" }}></div>
             <h2 className="sexy-project-name">{projectName}</h2>
             <p>{projectDetails}</p>
             <div className="media-container center-content">
@@ -65,7 +59,7 @@ const ProjectExperience = ({
                     {item.type === "text" ? (
                       <p
                         className="project-text"
-                        style={{width: item.width, marginBottom: "20px"}}
+                        style={{ width: item.width, marginBottom: "20px" }}
                       >
                         {item.src}
                       </p>
@@ -77,7 +71,7 @@ const ProjectExperience = ({
                         style={{
                           width: item.width,
                           height: item.height,
-                          marginBottom: "20px"
+                          marginBottom: "20px",
                         }}
                       />
                     ) : item.type === "video" ? (
@@ -87,7 +81,7 @@ const ProjectExperience = ({
                         style={{
                           width: item.width,
                           height: item.height,
-                          marginBottom: "20px"
+                          marginBottom: "20px",
                         }}
                       >
                         <source src={item.src} type={item.format} />
@@ -103,7 +97,7 @@ const ProjectExperience = ({
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
-                        style={{marginBottom: "20px"}}
+                        style={{ marginBottom: "20px" }}
                       ></iframe>
                     ) : null}
                   </Fade>
@@ -118,6 +112,7 @@ const ProjectExperience = ({
       </div>
     </StyleProvider>
   );
+  
 };
 
 export default ProjectExperience;

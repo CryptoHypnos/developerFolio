@@ -120,11 +120,13 @@ const Main = () => {
                 <button
                   className="previous-project-button"
                   onClick={() => {
-                    window.scrollTo({
-                      top: window.scrollY - 100,
-                      behavior: "smooth"
-                    });
                     setActiveProject(navigationProjects.previousProject);
+                    setTimeout(() => {
+                      const projectsAnchor = document.getElementById("projects");
+                      if (projectsAnchor) {
+                        projectsAnchor.scrollIntoView({ behavior: "smooth" });
+                      }
+                    }, 100);
                   }}
                 >
                   Previous Project
@@ -132,11 +134,13 @@ const Main = () => {
                 <button
                   className="next-project-button"
                   onClick={() => {
-                    window.scrollTo({
-                      top: window.scrollY - 100,
-                      behavior: "smooth"
-                    });
                     setActiveProject(navigationProjects.nextProject);
+                    setTimeout(() => {
+                      const projectsAnchor = document.getElementById("projects");
+                      if (projectsAnchor) {
+                        projectsAnchor.scrollIntoView({ behavior: "smooth" });
+                      }
+                    }, 100);
                   }}
                 >
                   Next Project
