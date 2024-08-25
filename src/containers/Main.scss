@@ -206,3 +206,39 @@
   }
 }
 
+// Define base styles for media items
+.media-text {
+  width: 70%;
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+  }
+}
+
+.media-image {
+  width: 70%;
+  height: auto;
+  margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+.media-video {
+  width: 70%;
+  height: auto;
+  margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
