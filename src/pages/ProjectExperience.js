@@ -1,5 +1,4 @@
 import React, {useEffect, useRef} from "react";
-import Header from "../components/header/Header";
 import ScrollToTopButton from "../containers/topbutton/Top";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
@@ -42,10 +41,13 @@ const ProjectExperience = ({
   return (
     <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
       <div className={isDark ? "dark-mode" : null}>
-        <Header />
         <Fade bottom duration={2000} distance="40px">
           <div className="main project-experience-container" ref={profileRef}>
-            <div id="projects" style={{ position: "absolute", top: "-100px" }}></div>
+            <div id="projects" style={{
+                                      position: "absolute",
+                                      top: window.innerWidth <= 768 ? "-200px" : "-100px"
+                                      }}>
+            </div>
             <h2 className="sexy-project-name">{projectName}</h2>
             <p>{projectDetails}</p>
             <div className="media-container center-content">

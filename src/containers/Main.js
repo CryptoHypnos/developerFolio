@@ -94,7 +94,7 @@ const Main = () => {
           <SplashScreen />
         ) : (
           <>
-            <Header />
+            <Header setActiveProject={setActiveProject} />
             <Greeting />
             <Skills />
             <StackProgress />

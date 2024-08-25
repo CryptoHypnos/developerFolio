@@ -15,7 +15,7 @@ import {
   bigProjects
 } from "../../portfolio";
 
-function Header() {
+function Header({ setActiveProject }) { // Add setActiveProject as a prop
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
@@ -25,6 +25,16 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
+
+const handleProjectsClick = () => {
+  setActiveProject(null); // Clear the current active project
+  document.getElementById("menu-btn").checked = false; // Close the mobile menu
+  window.location.href = "/#projects"; // Scroll to the Projects section
+};
+
+const handleLinkClick = () => {
+  document.getElementById("menu-btn").checked = false; // Close the mobile menu
+};
 
   return (
     <Headroom>
@@ -45,46 +55,50 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="/#skills">Skills</a>
+              <a href="/#skills" onClick={handleLinkClick}>Skills </a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="/#projects">Projects</a>
+              <a href="/#projects" onClick={handleProjectsClick}>
+                Projects
+              </a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="/#experience">Work Experiences</a>
+              <a href="/#experience" onClick={handleLinkClick}>Work Experiences</a>
             </li>
           )}
           {viewProjects && (
             <li>
-              <a href="/#projects">Projects</a>
+              <a href="/#projects" onClick={handleProjectsClick}>
+                Projects
+              </a>
             </li>
           )}
           {viewOpenSource && (
             <li>
-              <a href="/#opensource">Open Source</a>
+              <a href="/#opensource" onClick={handleLinkClick}>Open Source</a>
             </li>
           )}
           {viewBlog && (
             <li>
-              <a href="/#blogs">Blogs</a>
+              <a href="/#blogs" onClick={handleLinkClick}>Blogs</a>
             </li>
           )}
           {viewTalks && (
             <li>
-              <a href="/#talks">Talks</a>
+              <a href="/#talks" onClick={handleLinkClick}>Talks</a>
             </li>
           )}
           {viewResume && (
             <li>
-              <a href="/#resume">Resume</a>
+              <a href="/#resume" onClick={handleLinkClick}>Resume</a>
             </li>
           )}
           <li>
-            <a href="/#contact">Contact Me</a>
+            <a href="/#contact" onClick={handleLinkClick}>Contact Me</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -97,4 +111,5 @@ function Header() {
     </Headroom>
   );
 }
+
 export default Header;
