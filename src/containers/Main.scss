@@ -239,11 +239,12 @@
 
 .media-video {
   width: 70%;
-  height: auto;
+  height: 600px;
   margin-bottom: 20px;
 
   @media (max-width: 768px) {
     width: 100%;
+    height:auto;
     margin-bottom: 15px;
   }
 }
