@@ -214,60 +214,60 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/laila_thumbnail.png"),
-      projectName: "LAiLA",
-      projectDesc: "Full-stack optimization toolbox development at Airbus",
-      footerLink: [
-        {
-          name: "Check it out!",
-          url: "/projectExperience/LAiLA"
-        }
-        //  you can add extra buttons here.
-      ],
-      media: [
-        {
-          type: "text",
-          src: "An intense moment with the Automated Fiber Placement robot as I was monitoring my first ever laminate print"
-        },
-        {
-          type: "image",
-          src: require("./assets/images/laila_thumbnail.png"),
-          alt: "Me and the AFP robot"
-        },
-        {
-          type: "text",
-          src: "Carbon fiber composite laminates achieve their required engineering properties by varying the angle of the fibers in each layer. Traditionally, these angles are fixed at 0°, 45°, 90°, and -45° per layer."
-        },
-        {
-          type: "text",
-          src: "This traditional approach can be refined, i.e., the mass can be further minimised, by introducing variable angle layer. An optimization is needed to figure out the shape of the curve in that variable angle layer."
-        },
-        {
-          type: "image",
-          src: require("./assets/images/laila_vat.png"),
-          alt: "Me and the AFP robot"
-        },
-        {
-          type: "text",
-          src: "What I am currently doing at Airbus is building a full-stack optimizer to find the right shape fo the curve."
-        },
-        {
-          type: "image",
-          src: require("./assets/images/laila_gui.png"),
-          alt: "LAiLA GUI"
-        },
-        {
-          type: "text",
-          src: "The optimizer is vertically and horizontally scalabe, has visualization featuers, and is able to communicate with with multiple worker instances over the cloud."
-        },
-        {
-          type: "image",
-          src: require("./assets/images/opt_toolbox.png"),
-          alt: "Toolbox Architecture"
-        }
-      ]
-    },
+    // {
+    //   image: require("./assets/images/laila_thumbnail.png"),
+    //   projectName: "LAiLA",
+    //   projectDesc: "Full-stack optimization toolbox development at Airbus",
+    //   footerLink: [
+    //     {
+    //       name: "Check it out!",
+    //       url: "/projectExperience/LAiLA"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ],
+    //   media: [
+    //     {
+    //       type: "text",
+    //       src: "An intense moment with the Automated Fiber Placement robot as I was monitoring my first ever laminate print"
+    //     },
+    //     {
+    //       type: "image",
+    //       src: require("./assets/images/laila_thumbnail.png"),
+    //       alt: "Me and the AFP robot"
+    //     },
+    //     {
+    //       type: "text",
+    //       src: "Carbon fiber composite laminates achieve their required engineering properties by varying the angle of the fibers in each layer. Traditionally, these angles are fixed at 0°, 45°, 90°, and -45° per layer."
+    //     },
+    //     {
+    //       type: "text",
+    //       src: "This traditional approach can be refined, i.e., the mass can be further minimised, by introducing variable angle layer. An optimization is needed to figure out the shape of the curve in that variable angle layer."
+    //     },
+    //     {
+    //       type: "image",
+    //       src: require("./assets/images/laila_vat.png"),
+    //       alt: "Me and the AFP robot"
+    //     },
+    //     {
+    //       type: "text",
+    //       src: "What I am currently doing at Airbus is building a full-stack optimizer to find the right shape fo the curve."
+    //     },
+    //     {
+    //       type: "image",
+    //       src: require("./assets/images/laila_gui.png"),
+    //       alt: "LAiLA GUI"
+    //     },
+    //     {
+    //       type: "text",
+    //       src: "The optimizer is vertically and horizontally scalabe, has visualization featuers, and is able to communicate with with multiple worker instances over the cloud."
+    //     },
+    //     {
+    //       type: "image",
+    //       src: require("./assets/images/opt_toolbox.png"),
+    //       alt: "Toolbox Architecture"
+    //     }
+    //   ]
+    // },
     {
       image: require("./assets/images/vera_thumbnail.png"),
       projectName: "VERA",
