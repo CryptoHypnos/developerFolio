@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.05c6f9e3.css",
-    "main.js": "/static/js/main.2379a0a2.js",
+    "main.js": "/static/js/main.9d9cd57a.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -13,21 +13,17 @@
     "static/media/turtlebot_prize.png": "/static/media/turtlebot_prize.7e478b7fec1755a0b250.png",
     "static/media/adc_team_full.png": "/static/media/adc_team_full.50f39f82ede5e7b27801.png",
     "static/media/cobotank_1.png": "/static/media/cobotank_1.54462d7c7559934ae99c.png",
-    "static/media/laila_thumbnail.png": "/static/media/laila_thumbnail.bb1bb38b8b61eec25b53.png",
     "static/media/cobotank_2.png": "/static/media/cobotank_2.9cec4ca9e94722b2835b.png",
     "static/media/adc_car.png": "/static/media/adc_car.9630d978bce610c24f34.png",
     "static/media/turtlebot_real_environment_lab_scan.png": "/static/media/turtlebot_real_environment_lab_scan.21be85dfd2cfdcab33a4.png",
     "static/media/imech.png": "/static/media/imech.4b2fe92e89a4349372d8.png",
     "static/media/autobin_thumbnail.png": "/static/media/autobin_thumbnail.ea4050c512fce843144e.png",
-    "static/media/laila_vat.png": "/static/media/laila_vat.524f97cacd6de0e4ec77.png",
     "static/media/vera_thumbnail.png": "/static/media/vera_thumbnail.9f397159f0be25daae6d.png",
     "static/media/cobotank_thumbnail.png": "/static/media/cobotank_thumbnail.81154114dbbf4c13aa68.png",
     "static/media/spot_the_pot_thumbnail.png": "/static/media/spot_the_pot_thumbnail.c63192c11e5afdba5c8b.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/turtlebot.png": "/static/media/turtlebot.0b2375412a902a11613a.png",
-    "static/media/laila_gui.png": "/static/media/laila_gui.b4f59edff8696894b2fe.png",
     "static/media/python.png": "/static/media/python.46e8c99c5a431b7d33d5.png",
-    "static/media/opt_toolbox.png": "/static/media/opt_toolbox.6025931b7f2be23801f6.png",
     "static/media/unity.png": "/static/media/unity.f35d29c109fa7836308e.png",
     "static/media/emma_logo.png": "/static/media/emma_logo.5f8b95ce26768e037514.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -53,7 +49,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.05c6f9e3.css.map": "/static/css/main.05c6f9e3.css.map",
-    "main.2379a0a2.js.map": "/static/js/main.2379a0a2.js.map",
+    "main.9d9cd57a.js.map": "/static/js/main.9d9cd57a.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -61,6 +57,6 @@
   },
   "entrypoints": [
     "static/css/main.05c6f9e3.css",
-    "static/js/main.2379a0a2.js"
+    "static/js/main.9d9cd57a.js"
   ]
 }
