@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.05c6f9e3.css",
-    "main.js": "/static/js/main.2c7aac26.js",
+    "main.js": "/static/js/main.8640b1a3.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.567a0b93.chunk.js": "/static/js/990.567a0b93.chunk.js",
     "static/media/adc_team.png": "/static/media/adc_team.1545b4b8a1e36f63d2d8.png",
+    "static/media/zsL_testing_1.png": "/static/media/zsL_testing_1.fc842d967385dfe589a7.png",
     "static/media/cobotank_minister.png": "/static/media/cobotank_minister.264cefe0c2d6dd65f396.png",
+    "static/media/zsl_testing_2.png": "/static/media/zsl_testing_2.eb21cedb64ac125ec9cf.png",
+    "static/media/zsl_aquisition.png": "/static/media/zsl_aquisition.af3ddb90aa8397d6ff37.png",
     "static/media/turtlebot_real_environment_lab.png": "/static/media/turtlebot_real_environment_lab.0324a7741b1628b52bb7.png",
     "static/media/turtlebot_sim.png": "/static/media/turtlebot_sim.e74eda3d7cd27169fb6a.png",
     "static/media/turtlebot_prize.png": "/static/media/turtlebot_prize.7e478b7fec1755a0b250.png",
@@ -30,6 +33,7 @@
     "static/media/arduino.png": "/static/media/arduino.bd57b7e0983b8b0aefbd.png",
     "static/media/matlab.png": "/static/media/matlab.f335d9b9eacee2295a80.png",
     "static/media/ros.png": "/static/media/ros.93da96340bf5fbc08c32.png",
+    "static/media/zsl_sys_arch.png": "/static/media/zsl_sys_arch.7257541f2372a9a79290.png",
     "static/media/csharp.png": "/static/media/csharp.fd37badac95f1f3d772b.png",
     "static/media/airbus.png": "/static/media/airbus.e44c9bc8312d453883a1.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -49,7 +53,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.05c6f9e3.css.map": "/static/css/main.05c6f9e3.css.map",
-    "main.2c7aac26.js.map": "/static/js/main.2c7aac26.js.map",
+    "main.8640b1a3.js.map": "/static/js/main.8640b1a3.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -57,6 +61,6 @@
   },
   "entrypoints": [
     "static/css/main.05c6f9e3.css",
-    "static/js/main.2c7aac26.js"
+    "static/js/main.8640b1a3.js"
   ]
 }
