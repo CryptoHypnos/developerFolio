@@ -362,6 +362,64 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/zsl_sys_arch.png"),
+      projectName: "ZSL",
+      projectDesc: "Project management for building scaled autonomus maritime vessels",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "/projectExperience/SpotThePot"
+        }
+        //  you can add extra buttons here.
+      ],
+      media: [
+        {
+          type: "text",
+          src: "Project management for building 4 scaled autonomus maritime vessels with a total budgeet of 150k EUR. My responsiblities included:"
+        },
+        {
+          type: "text",
+          src: "Requirements Engineering"
+        },
+        {
+          type: "text",
+          src: "Systems Engineerng: defining the system architecture and the interfaces between the modules as seen below"
+        },
+        {
+          type: "image",
+          src: require("./assets/images/zsl_sys_arch.png"),
+          alt: "Systems Architecture"
+        },
+        {
+          type: "text",
+          src: "Aquisition: reasearching and purchasing the components. Below is a picture of happy me with the first delivery of the stereo cameras."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/zsl_aquisition.png"),
+          alt: "ZSL Aquisition"
+        },
+        {
+          type: "text",
+          src: "Integartion & Testing"
+        },
+        {
+          type: "image",
+          src: require("./assets/images/zsL_testing_1.png"),
+          alt: "Testing 1"
+        },
+        {
+          type: "image",
+          src: require("./assets/images/zsl_testing_2.png"),
+          alt: "Testing 2"
+        },
+        {
+          type: "text",
+          src: "The projet is still ongoing but I had to leave the team due to my position at Airbus."
+        },
+      ]
+    },
+    {
       image: require("./assets/images/turtlebot.png"),
       projectName: "SLAM-based Object Detection",
       projectDesc: "Where it all started: my first project in robotics",
