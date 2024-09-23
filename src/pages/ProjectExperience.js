@@ -14,8 +14,8 @@ const ProjectExperience = ({
   setActiveProject,
   setNavigationProjects
 }) => {
-  const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  //const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+  const [isDark, setIsDark] = useLocalStorage("isDark", true);
   const profileRef = useRef(null);
 
   const changeTheme = () => {
