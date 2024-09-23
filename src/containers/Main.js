@@ -53,16 +53,16 @@ const Main = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY || window.pageYOffset;
-      const yStart = 3300; // Adjust this value as needed
-      const yEnd = 10000; // Adjust this value as needed
+      const isMobile = window.innerWidth <= 768; // Define mobile width check here
+      const yStart = isMobile ? 5000 : 3300; // Different yStart values for mobile and desktop
 
-      if (scrollPosition > yStart && scrollPosition < yEnd) {
+      if (scrollPosition > yStart && scrollPosition) {
         setShowButtons(true);
       } else {
         setShowButtons(false);
       }
 
-      const distanceFromBottom = 400; // Set the distance from the bottom where buttons should hide
+      const distanceFromBottom = isMobile? 100: 400; // Set the distance from the bottom where buttons should hide
       const documentHeight = document.documentElement.scrollHeight;
       const windowHeight = window.innerHeight;
 

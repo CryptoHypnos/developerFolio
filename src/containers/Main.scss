@@ -156,13 +156,24 @@
   }
 
   @media (max-width: 768px) {
-    display: none; /* Hide buttons on mobile */
+    position: fixed;
+    top: 10%;
+    background-color: #56198b90;
+    transform: translateY(920%);
+    height: 50px; /* Adjust the button size for mobile */
+    width: 100px;
+    padding: 0px 0px;
+    font-size: 12px; /* Adjust text size if there's any */
   }
 }
 
 .previous-project-button:hover,
 .next-project-button:hover {
   background-color: #555; /* Slightly lighter background on hover */
+
+  @media (max-width: 768px) {
+    background-color: #56198bd1;
+  }
 }
 
 .previous-project-button {
