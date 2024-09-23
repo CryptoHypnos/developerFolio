@@ -364,7 +364,8 @@ const bigProjects = {
     {
       image: require("./assets/images/zsl_sys_arch.png"),
       projectName: "ZSL",
-      projectDesc: "Project management for building scaled autonomus maritime vessels",
+      projectDesc:
+        "Project management for building scaled autonomus maritime vessels",
       footerLink: [
         {
           name: "Check it out!",
@@ -416,7 +417,7 @@ const bigProjects = {
         {
           type: "text",
           src: "The projet is still ongoing but I had to leave the team due to my position at Airbus."
-        },
+        }
       ]
     },
     {

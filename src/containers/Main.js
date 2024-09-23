@@ -62,7 +62,7 @@ const Main = () => {
         setShowButtons(false);
       }
 
-      const distanceFromBottom = isMobile? 100: 400; // Set the distance from the bottom where buttons should hide
+      const distanceFromBottom = isMobile ? 100 : 400; // Set the distance from the bottom where buttons should hide
       const documentHeight = document.documentElement.scrollHeight;
       const windowHeight = window.innerHeight;
 
