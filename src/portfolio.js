@@ -339,7 +339,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/zsl_sys_arch.png"),
+      image: require("./assets/images/zsl_sys_arch_thumbnail.png"),
       projectName: "ZSL",
       projectDesc:
         "Project management for building scaled autonomus maritime vessels",
@@ -524,18 +524,18 @@ const workExperiences = {
       role: "MSc Research Intern",
       company: "Airbus",
       companylogo: require("./assets/images/airbus.png"),
-      date: "Mai 2024 – Present",
+      date: "May 2024 – October 2024",
       desc: "Design Optimization of Carbon Fiber Laminates for Aerospace Applications",
       descBullets: [
-        "Developing a full-stack scalable optimization toolbox for VAT carbon fiber deposition",
-        "Validating optimization results through simulation and hardware testing"
+        "Developed a full-stack scalable optimization toolbox for VAT carbon fiber deposition",
+        "Co-authored a journal paper documenting the findings of the project"
       ]
     },
     {
       role: "Research Assistant",
       company: "Chair of Mechatronics at UDE",
       companylogo: require("./assets/images/imech.png"),
-      date: "May 2022 – May 2024",
+      date: "April 2022 – April 2024",
       desc: "",
       descBullets: [
         "Contributions in robotics and automation to diverse reasearch-industry projects",
@@ -546,7 +546,7 @@ const workExperiences = {
       role: "R&D Intern",
       company: "Emma, the Sleep Company",
       companylogo: require("./assets/images/emma_logo.png"),
-      date: "Nov 2021 – April 2022",
+      date: "Nov 2021 – March 2022",
       desc: "",
       descBullets: [
         "Developed a storage and archive system for foam and mattress samples",
