@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.db4db92a.css",
-    "main.js": "/static/js/main.ca58de30.js",
+    "main.js": "/static/js/main.594c3175.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -42,6 +42,7 @@
     "static/media/turtlebot_sim_recognition.png": "/static/media/turtlebot_sim_recognition.fc69596f56f6db0503ae.png",
     "static/media/turtlebot_sim_scan.png": "/static/media/turtlebot_sim_scan.c7432ed5cac485e9ad87.png",
     "static/media/ue.png": "/static/media/ue.65fcbbfd6093f217d550.png",
+    "static/media/zsl_sys_arch_thumbnail.png": "/static/media/zsl_sys_arch_thumbnail.3e76b55572b9caa3e00e.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
@@ -55,7 +56,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.db4db92a.css.map": "/static/css/main.db4db92a.css.map",
-    "main.ca58de30.js.map": "/static/js/main.ca58de30.js.map",
+    "main.594c3175.js.map": "/static/js/main.594c3175.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -63,6 +64,6 @@
   },
   "entrypoints": [
     "static/css/main.db4db92a.css",
-    "static/js/main.ca58de30.js"
+    "static/js/main.594c3175.js"
   ]
 }
