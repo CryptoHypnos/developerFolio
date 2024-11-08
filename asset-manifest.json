@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.db4db92a.css",
-    "main.js": "/static/js/main.045ff7c6.js",
+    "main.js": "/static/js/main.ca58de30.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.567a0b93.chunk.js": "/static/js/990.567a0b93.chunk.js",
     "static/media/adc_team.png": "/static/media/adc_team.1545b4b8a1e36f63d2d8.png",
+    "static/media/airbus_wing_me.png": "/static/media/airbus_wing_me.97935e1da8e916e5aee0.png",
     "static/media/zsL_testing_1.png": "/static/media/zsL_testing_1.fc842d967385dfe589a7.png",
     "static/media/cobotank_minister.png": "/static/media/cobotank_minister.264cefe0c2d6dd65f396.png",
     "static/media/zsl_testing_2.png": "/static/media/zsl_testing_2.eb21cedb64ac125ec9cf.png",
@@ -16,6 +17,7 @@
     "static/media/turtlebot_prize.png": "/static/media/turtlebot_prize.7e478b7fec1755a0b250.png",
     "static/media/adc_team_full.png": "/static/media/adc_team_full.50f39f82ede5e7b27801.png",
     "static/media/cobotank_1.png": "/static/media/cobotank_1.54462d7c7559934ae99c.png",
+    "static/media/laila_thumbnail.png": "/static/media/laila_thumbnail.bb1bb38b8b61eec25b53.png",
     "static/media/cobotank_2.png": "/static/media/cobotank_2.9cec4ca9e94722b2835b.png",
     "static/media/adc_car.png": "/static/media/adc_car.9630d978bce610c24f34.png",
     "static/media/turtlebot_real_environment_lab_scan.png": "/static/media/turtlebot_real_environment_lab_scan.21be85dfd2cfdcab33a4.png",
@@ -53,7 +55,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.db4db92a.css.map": "/static/css/main.db4db92a.css.map",
-    "main.045ff7c6.js.map": "/static/js/main.045ff7c6.js.map",
+    "main.ca58de30.js.map": "/static/js/main.ca58de30.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -61,6 +63,6 @@
   },
   "entrypoints": [
     "static/css/main.db4db92a.css",
-    "static/js/main.045ff7c6.js"
+    "static/js/main.ca58de30.js"
   ]
 }
