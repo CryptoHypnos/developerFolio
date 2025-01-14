@@ -167,7 +167,7 @@ const bigProjects = {
   subtitle: "Stuff that I've worked on and love to share :)",
   projects: [
     {
-      image: require("./assets/images/adc_team.png"),
+      image: require("./assets/images/adc_newsletter.png"),
       projectName: "VDI-ADC",
       projectDesc:
         "Lead our team to 2nd place in the VDI Autonomous Driving Cup",
@@ -181,7 +181,15 @@ const bigProjects = {
       media: [
         {
           type: "text",
-          src: "We won second place out of the 8 competing teams from universities all around Germany. This video is a Summary about the project. Full adventure video awaits you when you scroll down!"
+          src: "We won second place out of the 8 competing teams from universities from all around Germany. "
+        },
+        {
+          type: "text",
+          src: "The thumbnail is the front cover of the University's newsletter."
+        },
+        {
+          type: "text",
+          src: "This video is a Summary about the project. Full adventure video awaits you when you scroll down!"
         },
         {
           type: "youtube",
@@ -242,7 +250,7 @@ const bigProjects = {
         {
           type: "text",
           src: "I also co-authored the journal paper that documented the public side of the project. Stay tuned for the link (paper being reviewed for Composites Part B: Engineering)."
-        },
+        }
       ]
     },
     {
